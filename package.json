@@ -1,0 +1,25 @@
+{
+  "name": "reflecta",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "backend:dev": "npm run start:dev -w @reflecta/backend",
+    "backend:build": "npm run build -w @reflecta/backend",
+    "frontend:start": "npm run start -w @reflecta/frontend",
+    "frontend:android": "npm run android -w @reflecta/frontend",
+    "frontend:ios": "npm run ios -w @reflecta/frontend",
+    "frontend:web": "npm run web -w @reflecta/frontend",
+    "prisma:generate": "npm run prisma:generate -w @reflecta/backend",
+    "prisma:migrate": "npm run prisma:migrate -w @reflecta/backend",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

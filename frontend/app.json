@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Reflecta",
+    "slug": "reflecta",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "reflecta",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]: Reflecta
+          - generic [ref=e10]: Я рядом.
+        - generic [ref=e12] [cursor=pointer]: R
+      - generic [ref=e13]:
+        - generic [ref=e15]: "5"
+        - generic [ref=e16]: Сегодняшняя практика
+        - generic [ref=e17]: 5 минут, чтобы заметить напряжение и выбрать один спокойный шаг.
+        - generic [ref=e19] [cursor=pointer]: Начать мягко
+      - generic [ref=e20] [cursor=pointer]:
+        - generic [ref=e22]: "?"
+        - generic [ref=e23]:
+          - generic [ref=e24]: Поговорить
+          - generic [ref=e25]: Напиши, что происходит. Я отвечу коротко и бережно.
+      - generic [ref=e26]:
+        - generic [ref=e27]: Как ты сегодня?
+        - generic [ref=e28]: Отметь за 10 секунд
+      - generic [ref=e29]:
+        - generic [ref=e31] [cursor=pointer]: "1"
+        - generic [ref=e33] [cursor=pointer]: "2"
+        - generic [ref=e35] [cursor=pointer]: "3"
+        - generic [ref=e37] [cursor=pointer]: "4"
+        - generic [ref=e39] [cursor=pointer]: "5"
+      - generic [ref=e40]:
+        - generic [ref=e41]: Быстрая помощь
+        - generic [ref=e42]: Три сценария MVP
+      - generic [ref=e43]:
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e46]: "!"
+          - generic [ref=e47]: Тревога
+          - generic [ref=e48]: Мысли крутятся, сложно выдохнуть
+        - generic [ref=e49] [cursor=pointer]:
+          - generic [ref=e51]: z
+          - generic [ref=e52]: Не могу уснуть
+          - generic [ref=e53]: Нужно мягко выключить день
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e56]: ~
+          - generic [ref=e57]: Выгорание
+          - generic [ref=e58]: Нет сил, всё стало тяжёлым
+      - generic [ref=e59]:
+        - generic [ref=e60]: Дневник эмоций
+        - generic [ref=e61]: Здесь появятся состояния, практики и маленькие выводы о твоей неделе.
+    - generic [ref=e63]:
+      - generic [ref=e64]: Reflecta
+      - generic [ref=e65]: Войди, чтобы сохранить дневник
+      - generic [ref=e66]: Supabase Auth создаст личный UUID. Записи, чат и итоги будут привязаны к нему.
+      - generic [ref=e67]:
+        - generic [ref=e69] [cursor=pointer]: Вход
+        - generic [ref=e71] [cursor=pointer]: Регистрация
+      - textbox "email" [ref=e72]
+      - textbox "пароль" [ref=e73]
+      - generic [ref=e75] [cursor=pointer]: Войти
+    - generic [ref=e76]:
+      - generic [ref=e78] [cursor=pointer]: Дом
+      - generic [ref=e80] [cursor=pointer]: Чат
+      - generic [ref=e82] [cursor=pointer]: Практики
+      - generic [ref=e84] [cursor=pointer]: Дневник
+      - generic [ref=e86] [cursor=pointer]: Итоги
+  - generic:
+    - img
