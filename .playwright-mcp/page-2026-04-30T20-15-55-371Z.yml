@@ -1,0 +1,93 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]: Reflecta
+          - generic [ref=e10]: Я рядом.
+        - generic [ref=e12] [cursor=pointer]: R
+      - generic [ref=e13]:
+        - generic [ref=e15]: "5"
+        - generic [ref=e16]: Начать с мягкой опоры
+        - generic [ref=e17]: Сделай первый короткий check-in и практику тревоги. Этого достаточно, чтобы приложение начало подстраиваться.
+        - generic [ref=e18]:
+          - generic [ref=e19]: первые данные
+          - generic [ref=e20]: 90 секунд
+        - generic [ref=e22] [cursor=pointer]: Открыть практику
+      - generic [ref=e23] [cursor=pointer]:
+        - generic [ref=e25]: "?"
+        - generic [ref=e26]:
+          - generic [ref=e27]: Поговорить
+          - generic [ref=e28]: Напиши, что происходит. Я отвечу коротко и бережно.
+      - generic [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: Если сейчас небезопасно
+        - generic [ref=e31]: Не оставайся один. Открой быстрые шаги к живой помощи.
+      - generic [ref=e32]:
+        - generic [ref=e33]: Как ты сегодня?
+        - generic [ref=e34]: Отметь за 10 секунд
+      - generic [ref=e35]:
+        - generic [ref=e37] [cursor=pointer]: "1"
+        - generic [ref=e39] [cursor=pointer]: "2"
+        - generic [ref=e41] [cursor=pointer]: "3"
+        - generic [ref=e43] [cursor=pointer]: "4"
+        - generic [ref=e45] [cursor=pointer]: "5"
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Твой ритм
+          - generic [ref=e50] [cursor=pointer]: Дневник
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: "0"
+            - generic [ref=e54]: check-in
+          - generic [ref=e55]:
+            - generic [ref=e56]: "0"
+            - generic [ref=e57]: разборы
+          - generic [ref=e58]:
+            - generic [ref=e59]: —
+            - generic [ref=e60]: часто
+        - generic [ref=e61]: Начни с оценки состояния. Так приложение постепенно поймёт, что помогает именно тебе.
+      - generic [ref=e62]:
+        - generic [ref=e63]: Быстрая помощь
+        - generic [ref=e64]: Три сценария MVP
+      - generic [ref=e65]:
+        - generic [ref=e66] [cursor=pointer]:
+          - generic [ref=e68]: "!"
+          - generic [ref=e69]: Тревога
+          - generic [ref=e70]: Мысли крутятся, сложно выдохнуть
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e73]: z
+          - generic [ref=e74]: Не могу уснуть
+          - generic [ref=e75]: Нужно мягко выключить день
+        - generic [ref=e76] [cursor=pointer]:
+          - generic [ref=e78]: ~
+          - generic [ref=e79]: Выгорание
+          - generic [ref=e80]: Нет сил, всё стало тяжёлым
+      - generic [ref=e81]:
+        - generic [ref=e82]: Дневник эмоций
+        - generic [ref=e83]: Здесь появятся состояния, практики и маленькие выводы о твоей неделе.
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: Reflecta
+        - generic [ref=e89]: Я рядом.
+        - generic [ref=e90]: Короткая поддержка, практики и дневник эмоций в одном спокойном месте.
+      - generic [ref=e91]:
+        - generic [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]: Снизить тревогу
+          - generic [ref=e96]: Короткие шаги, когда мысли разгоняются.
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: Засыпать спокойнее
+          - generic [ref=e101]: Вечерние сценарии без длинных разговоров.
+        - generic [ref=e104] [cursor=pointer]:
+          - generic [ref=e105]: Выбраться из выгорания
+          - generic [ref=e106]: Мягкий ритм и маленькие действия.
+        - generic [ref=e109] [cursor=pointer]:
+          - generic [ref=e110]: Понять свои состояния
+          - generic [ref=e111]: Дневник эмоций и повторяющиеся паттерны.
+      - generic [ref=e112]:
+        - generic [ref=e113]: Важно
+        - generic [ref=e114]: Reflecta не ставит диагнозы и не заменяет врача или психотерапевта. Если есть риск навредить себе или кому-то ещё, нужна живая срочная помощь.
+      - generic [ref=e115]:
+        - generic [ref=e117] [cursor=pointer]: Продолжить
+        - generic [ref=e119] [cursor=pointer]: Я понимаю ограничения
+  - generic:
+    - img
