@@ -1,0 +1,2 @@
+ALTER TABLE "Session"
+  ADD COLUMN "activityTags" TEXT[] NOT NULL DEFAULT ARRAY[]::TEXT[];

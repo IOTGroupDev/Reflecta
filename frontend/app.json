@@ -7,6 +7,21 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "scheme": "reflecta",
+    "plugins": [
+      "expo-document-picker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Reflecta to choose an avatar from your photos."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Reflecta to use Face ID to unlock your private journal."
+        }
+      ]
+    ],
     "web": {
       "bundler": "metro"
     }

@@ -1,25 +1,30 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { PrimaryButton } from '../components/ui/ActionButton';
-import { intensityOptions } from '../data';
+import { copy, intensityByLanguage } from '../i18n';
 import { ScreenShell } from '../components/flow/ScreenShell';
-import type { Intensity, Scenario } from '../types';
+import type { Intensity, Language, Scenario } from '../types';
 
 export function IntensityScreen({
   intensity,
+  language,
   onBack,
   onNext,
   onSelect,
   scenario,
 }: {
   intensity: Intensity;
+  language: Language;
   onBack: () => void;
   onNext: () => void;
   onSelect: (value: Intensity) => void;
   scenario: Scenario;
 }) {
+  const t = copy[language];
+  const intensityOptions = intensityByLanguage[language];
+
   return (
     <ScreenShell onBack={onBack} title={scenario.title}>
-      <Text style={styles.largeQuestion}>Насколько это сильно?</Text>
+      <Text style={styles.largeQuestion}>{t.flow.intensityTitle}</Text>
       <View style={styles.intensityStack}>
         {intensityOptions.map((item) => {
           const selected = intensity === item.id;
@@ -38,7 +43,7 @@ export function IntensityScreen({
           );
         })}
       </View>
-      <PrimaryButton label="Продолжить" onPress={onNext} />
+      <PrimaryButton label={t.common.continue} onPress={onNext} />
     </ScreenShell>
   );
 }

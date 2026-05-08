@@ -1,25 +1,30 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { ScreenShell } from '../components/flow/ScreenShell';
 import { PrimaryButton } from '../components/ui/ActionButton';
-import type { Scenario } from '../types';
+import { copy } from '../i18n';
+import type { Language, Scenario } from '../types';
 
 export function DetailsScreen({
   onBack,
+  language,
   onNext,
   onToggle,
   scenario,
   selectedDetails,
 }: {
   onBack: () => void;
+  language: Language;
   onNext: () => void;
   onToggle: (id: string) => void;
   scenario: Scenario;
   selectedDetails: string[];
 }) {
+  const t = copy[language];
+
   return (
     <ScreenShell onBack={onBack} title={scenario.title}>
-      <Text style={styles.largeQuestion}>Что ближе всего?</Text>
-      <Text style={styles.questionHint}>Можно выбрать несколько пунктов.</Text>
+      <Text style={styles.largeQuestion}>{t.flow.detailsTitle}</Text>
+      <Text style={styles.questionHint}>{t.flow.detailsHint}</Text>
       <View style={styles.optionList}>
         {scenario.details.map((detail) => {
           const selected = selectedDetails.includes(detail.id);
@@ -37,7 +42,7 @@ export function DetailsScreen({
           );
         })}
       </View>
-      <PrimaryButton label="Дальше" onPress={onNext} />
+      <PrimaryButton label={t.common.next} onPress={onNext} />
     </ScreenShell>
   );
 }

@@ -27,4 +27,12 @@ export class SupabaseService {
 
     return data.user;
   }
+
+  async deleteUser(userId: string) {
+    const { error } = await this.client.auth.admin.deleteUser(userId);
+
+    if (error) {
+      throw error;
+    }
+  }
 }

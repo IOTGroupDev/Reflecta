@@ -5,7 +5,9 @@ import { AiModule } from './ai/ai.module';
 import { AuthModule } from './auth/auth.module';
 import { ChatModule } from './chat/chat.module';
 import { JournalModule } from './journal/journal.module';
+import { MeModule } from './me/me.module';
 import { PrismaModule } from './prisma/prisma.module';
+import { RateLimitModule } from './rate-limit/rate-limit.module';
 import { RedisModule } from './redis/redis.module';
 import { SupabaseModule } from './supabase/supabase.module';
 
@@ -17,11 +19,13 @@ import { SupabaseModule } from './supabase/supabase.module';
     }),
     PrismaModule,
     RedisModule,
+    RateLimitModule,
     SupabaseModule,
     AuthModule,
     AiModule,
     ChatModule,
     JournalModule,
+    MeModule,
   ],
   controllers: [AppController],
 })
